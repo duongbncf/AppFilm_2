@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable-v24/background_image.xml" value="0.1555" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/bell.xml" value="0.183" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/button_background.xml" value="0.2005" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/coming_soon.xml" value="0.183" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/gradiant_bg.xml" value="0.13" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_add_svgrepo_com.xml" value="0.1685" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_baseline_fullscreen_24.xml" value="0.2215" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_circle.xml" value="0.1" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_comingsoon.xml" value="0.1075" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_home.xml" value="0.1075" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1685" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1685" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_menu.xml" value="0.1075" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_next_svgrepo_com.xml" value="0.2005" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_play.xml" value="0.202" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/ic_search.xml" value="0.1075" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/input.xml" value="0.196" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/locker.xml" value="0.2005" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/person.xml" value="0.1675" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/rectangle.xml" value="0.1675" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/settings.xml" value="0.2215" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/white_background.xml" value="0.1685" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_admin.xml" value="0.17101325352714836" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_category.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_delete_film.xml" value="0.17101325352714836" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_demo.xml" value="0.4" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_edit_avatar.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_film.xml" value="0.152" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_film_detail.xml" value="0.1" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_gmail.xml" value="0.15476699444206926" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert_cast.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert_film.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_detail.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_detail2.xml" value="0.1" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_player.xml" value="0.2770700636942675" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_select_categories.xml" value="0.26336041043180847" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_sign_in_acitivity.xml" value="0.15049166310389056" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_update_film_man2.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/coming_soon.xml" value="0.4" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/create_account.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/custom_player_control.xml" value="0.19880290722530997" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_action.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_comming_soon.xml" value="0.19794784095767423" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_gmail.xml" value="0.4" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_menu.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/home_fragment.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/item_category.xml" value="0.23257802479692177" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/item_comming_soon.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/item_movie.xml" value="0.136" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/item_search.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/rv_item_category.xml" value="0.19880290722530997" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/sdasdsa.xml" value="0.180859375" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/sign_in.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/slider.xml" value="0.3026041666666667" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/slider_item.xml" value="0.19880290722530997" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/track_selection_dialog.xml" value="0.19880290722530997" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/tss.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/menu/menu_botton_nav.xml" value="0.144" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1685" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

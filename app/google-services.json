@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "812354127793",
+    "firebase_url": "https://app-film-64753-default-rtdb.firebaseio.com",
+    "project_id": "app-film-64753",
+    "storage_bucket": "app-film-64753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812354127793:android:2ca93e6444839662275f90",
+        "android_client_info": {
+          "package_name": "com.example.appfilm_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812354127793-ml0egp637k0faiduiaf11d4g4klkopck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJaaKfZqgez6kNKeI95SEyz3kmH8NX70Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812354127793-ml0egp637k0faiduiaf11d4g4klkopck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1D1D">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvCreateAnAccount"
+            android:layout_width="185dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginBottom="100dp"
+            android:text="Create an account"
+            android:textColor="@color/white"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--    -->
+
+        <EditText
+            android:id="@+id/edtUserNameorPassword"
+            android:layout_width="317dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rectangle"
+            android:drawableStart="@drawable/person"
+            android:drawablePadding="10dp"
+            android:hint="Username or Email"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+
+            android:textColor="#676767"
+            android:textColorHint="#676767"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@id/tvCreateAnAccount"
+            app:layout_constraintTop_toBottomOf="@id/tvCreateAnAccount" />
+
+        <EditText
+            android:id="@+id/edtPasswordCreate"
+            android:layout_width="317dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/rectangle"
+            android:drawableStart="@drawable/locker"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="#676767"
+            android:textColorHint="#676767"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@id/edtUserNameorPassword"
+            app:layout_constraintTop_toBottomOf="@id/edtUserNameorPassword" />
+
+        <EditText
+            android:id="@+id/edtConfirmPassword"
+            android:layout_width="317dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/rectangle"
+            android:drawableStart="@drawable/locker"
+            android:drawablePadding="10dp"
+            android:hint="Confilm Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="#676767"
+            android:textColorHint="#676767"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@id/edtPasswordCreate"
+            app:layout_constraintTop_toBottomOf="@id/edtPasswordCreate" />
+
+        <TextView
+            android:id="@+id/tvError4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#E40000"
+            app:layout_constraintStart_toStartOf="@id/edtConfirmPassword"
+            app:layout_constraintTop_toBottomOf="@id/edtConfirmPassword" />
+
+        <TextView
+            android:id="@+id/tvTerms"
+            android:layout_width="258dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="19dp"
+            android:lineHeight="14dp"
+            android:text="By clicking the Register button, you agree to the public offer"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@id/edtConfirmPassword"
+            app:layout_constraintTop_toBottomOf="@id/tvError4" />
+
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/tvRegister"-->
+        <!--        android:layout_width="91dp"-->
+        <!--        android:layout_height="43dp"-->
+        <!--        android:textColor="@color/white"-->
+        <!--        android:text="Register"-->
+        <!--        android:textSize="24dp"-->
+        <!--        app:layout_constraintStart_toStartOf="@id/tvTerms"-->
+        <!--        app:layout_constraintTop_toTopOf="@id/btnRegister"-->
+        <!--        app:layout_constraintBottom_toBottomOf="@id/btnRegister"-->
+        <!--        android:textStyle="bold"/>-->
+
+        <TextView
+            android:id="@+id/tvSignInWith"
+            android:layout_width="67dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="125dp"
+            android:text="sign in with"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnRegister" />
+
+        <ImageView
+            android:id="@+id/btn_google"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="28dp"
+
+            android:background="@drawable/google"
+            app:layout_constraintStart_toStartOf="@id/tvTerms"
+            app:layout_constraintTop_toBottomOf="@id/tvSignInWith" />
+
+        <ImageView
+            android:id="@+id/btn_twitter"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/twitter"
+            app:layout_constraintBottom_toBottomOf="@id/btn_google"
+            app:layout_constraintStart_toEndOf="@id/btn_google"
+            app:layout_constraintTop_toBottomOf="@id/tvSignInWith" />
+
+        <ImageView
+            android:id="@+id/btn_facebook"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/facebook"
+            app:layout_constraintBottom_toBottomOf="@id/btn_google"
+            app:layout_constraintStart_toEndOf="@id/btn_twitter"
+            app:layout_constraintTop_toBottomOf="@id/tvSignInWith" />
+
+        <ImageView
+            android:id="@+id/btnRegister"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/ic_next_svgrepo_com"
+            app:layout_constraintEnd_toEndOf="@id/edtConfirmPassword"
+            app:layout_constraintTop_toBottomOf="@id/tvTerms" />
+
+        <!--    <TextView-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Back"-->
+        <!--        android:textColor="@color/white"-->
+        <!--        android:textSize="30dp"-->
+        <!--        app:layout_constraintTop_toBottomOf="@id/btnRegister"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

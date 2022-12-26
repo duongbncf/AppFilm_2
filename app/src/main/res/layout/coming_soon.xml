@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/IV_coming_soon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/ic_circle"
+            android:drawableStart="@drawable/coming_soon"
+            android:drawablePadding="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TV_coming_soon"
+            android:layout_width="98dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="7dp"
+            android:gravity="center"
+            android:text="Coming Soon"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/IV_coming_soon"
+            app:layout_constraintStart_toEndOf="@id/IV_coming_soon"
+            app:layout_constraintTop_toTopOf="@id/IV_coming_soon"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_coming_soon"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@id/IV_coming_soon"
+            />
+
+        <!--  film1  -->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IV_film1"-->
+<!--            android:layout_width="410dp"-->
+<!--            android:layout_height="195dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:background="@drawable/film1"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_coming_soon" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_remind_film1"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="110dp"-->
+<!--            android:background="@drawable/bell"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_remind_film1"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Remind Me"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_remind_film1"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_remind_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_remind_film1" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_share_film1"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="22dp"-->
+<!--            android:background="@drawable/share"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_share_film1"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Share"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_share_film1"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_share_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_share_film1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_comingtime_film1"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:layout_marginStart="12dp"-->
+<!--            android:text="Coming December 23th"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/IV_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_remind_film1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_name_film1"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:text="Glass Onion: A Knives Out Mystery"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="12dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_comingtime_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_comingtime_film1" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_description_film1"-->
+<!--            android:layout_width="354dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            android:layout_marginTop="13dp"-->
+<!--            android:text="The first Knives Out was a box office smash, and the sequel is getting the widest theatrical release for a Netflix movie ever, but make no mistake, this stylish sequel is a Netflix filmModel. Daniel Craig returns as master detective Benoit Blanc, who's tasked with solving a murder mystery at a Greek villa that starts out as a game and turns real. The cast includes Edward Norton, Kate Hudson, and Dave Bautista. In his review for TV Guide, Jordan Hoffman gave it a 9 out of 10, an exceptionally high score for any movie, let alone a FilmApp Original in 2022."-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_name_film1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_name_film1" />-->
+
+<!--        &lt;!&ndash;  film2  &ndash;&gt;-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IV_film2"-->
+<!--            android:layout_width="410dp"-->
+<!--            android:layout_height="195dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:background="@drawable/film2"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_description_film1" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_remind_film2"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="110dp"-->
+<!--            android:background="@drawable/bell"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_remind_film2"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Remind Me"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_remind_film2"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_remind_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_remind_film2" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_share_film2"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="22dp"-->
+<!--            android:background="@drawable/share"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_share_film2"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Share"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_share_film2"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_share_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_share_film2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_comingtime_film2"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:layout_marginStart="12dp"-->
+<!--            android:text="Coming December 25th"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/IV_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_remind_film2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_name_film2"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:text="The Witcher: Blood Origin"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="12dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_comingtime_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_comingtime_film2" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_description_film2"-->
+<!--            android:layout_width="354dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            android:layout_marginTop="13dp"-->
+<!--            android:text="Fresh off the success of Everything Everywhere All At Once, Michelle Yeoh stars in this four-episode limited series spin-off of The Witcher. She plays the last member of a tribe of sword-elves who sets out on a quest to retrieve a stolen blade that's sacred to her people. It's an origin story of how the monster-slayers known as Witchers came to be. It could either be one for the diehard Witcher heads, or more accessible to non-nerds than that hardcore fantasy series. Watch it and see!"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_name_film2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_name_film2" />-->
+
+<!--        &lt;!&ndash;  film3  &ndash;&gt;-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IV_film3"-->
+<!--            android:layout_width="410dp"-->
+<!--            android:layout_height="195dp"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:background="@drawable/film3"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_description_film2" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_remind_film3"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="110dp"-->
+<!--            android:background="@drawable/bell"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_remind_film3"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Remind Me"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_remind_film3"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_remind_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_remind_film3" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_share_film3"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="22dp"-->
+<!--            android:background="@drawable/share"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/IV_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/IV_film3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_share_film3"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Share"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/bt_share_film3"-->
+<!--            app:layout_constraintStart_toStartOf="@id/bt_share_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/bt_share_film3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_comingtime_film3"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="15dp"-->
+<!--            android:layout_marginStart="12dp"-->
+<!--            android:text="Coming December 30th"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/IV_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_remind_film3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TV_name_film3"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:text="White Noise"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="12dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_comingtime_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_comingtime_film3" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/description_film3"-->
+<!--            android:layout_width="354dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            android:layout_marginTop="13dp"-->
+<!--            android:text="Fresh off the success of Everything Everywhere All At Once, Michelle Yeoh stars in this four-episode limited series spin-off of The Witcher. She plays the last member of a tribe of sword-elves who sets out on a quest to retrieve a stolen blade that's sacred to her people. It's an origin story of how the monster-slayers known as Witchers came to be. It could either be one for the diehard Witcher heads, or more accessible to non-nerds than that hardcore fantasy series. Watch it and see!"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="11dp"-->
+<!--            app:layout_constraintStart_toStartOf="@id/TV_name_film3"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/TV_name_film3" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

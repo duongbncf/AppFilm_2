@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập tên phim: "
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/edtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập nội dung phim"
+        app:layout_constraintTop_toBottomOf="@+id/edtName"/>
+    <EditText
+        android:id="@+id/edtImageFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập link ảnh phim: "
+        app:layout_constraintTop_toBottomOf="@+id/edtContent"/>
+    <EditText
+        android:id="@+id/edtCoverFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập link ảnh bìa phim: "
+        app:layout_constraintTop_toBottomOf="@+id/edtImageFilm"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

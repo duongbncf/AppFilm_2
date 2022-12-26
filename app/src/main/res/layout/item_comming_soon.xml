@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/IV_coming_soon"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_favourite_svgrepo_com"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/TV_remind_film1"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Remind Me"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="11dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/bt_remind_film1"-->
+<!--        app:layout_constraintStart_toStartOf="@id/bt_remind_film1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/bt_remind_film1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/IV_share_film1"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="22dp"-->
+<!--        android:background="@drawable/share"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/IV_coming_soon"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/IV_coming_soon" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/TV_share_film1"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Share"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="11dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/IV_share_film1"-->
+<!--        app:layout_constraintStart_toStartOf="@id/IV_share_film1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/IV_share_film1" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/bt_remind_film1"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:background="@drawable/bell"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/IV_film1"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/IV_film1" />-->
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/TV_comingtime_film1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Coming December 23th"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/IV_coming_soon"
+        app:layout_constraintTop_toBottomOf="@id/IV_coming_soon" />
+
+    <TextView
+        android:id="@+id/TV_name_film1"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:text="Glass Onion: A Knives Out Mystery"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/TV_comingtime_film1"
+        app:layout_constraintTop_toBottomOf="@id/TV_comingtime_film1" />
+
+    <TextView
+        android:id="@+id/TV_description_film1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="5dp"
+        android:text="Thve Bautista. In his review for TVn exceptionally high score for any movie, let alone a FilmApp Original in 2022."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintStart_toStartOf="@id/TV_name_film1"
+        app:layout_constraintTop_toBottomOf="@id/TV_name_film1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

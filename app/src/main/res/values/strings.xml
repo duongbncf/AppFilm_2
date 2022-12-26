@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FilmApp</string>
+    <string name="track_selection_title">Video Quality</string>
+    <string name="text">Vậy là chuyện tình giữa công chúa và thủ khoa Lý bước vào giai đoạn ngược tâm khán giả, bối cảnh đã khác đi khi không còn là những cô cậu sinh viên trên ghế nhà trường mà họ bắt đầu hành trình dấn thân vào con đường sự nghiệp. Giờ đây, khoảng cách giữa cả hai càng lớn vì Lý Tuân có thêm một không thể nào rửa sạch trong suốt cuộc đời. Tất nhiên, tình cảm của họ vẫn sâu đậm như ngày nào, nhưng thay vì có thể thẳng thắn đối mặt như Chu Vận, Lý Tuân chọn né tránh vì cảm thấy bản thân hèn mọn trước công chúa, không xứng với cô ấy.</string>
+    <string name="action_home">Home</string>
+    <string name="action_search">Search</string>
+    <string name="action_coming_soon">Coming Soon</string>
+    <string name="action_menu">Menu</string>
+
+
+</resources>
