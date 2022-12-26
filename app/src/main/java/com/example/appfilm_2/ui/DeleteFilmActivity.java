@@ -3,11 +3,8 @@ package com.example.appfilm_2.ui;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,12 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.appfilm_2.R;
 import com.example.appfilm_2.adapter.AdapterDeleteFilm;
-import com.example.appfilm_2.adapter.CastSelectAdapter;
 import com.example.appfilm_2.click.DeleteItemClickListener;
-import com.example.appfilm_2.model.Author;
 import com.example.appfilm_2.model.FilmModel;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -31,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class DeleteCastActivity extends AppCompatActivity {
+public class DeleteFilmActivity extends AppCompatActivity {
 //    EditText edit_name, edit_image;
     //    Button btnThem;
     private ArrayList<FilmModel> filmModels;
@@ -39,6 +32,7 @@ public class DeleteCastActivity extends AppCompatActivity {
     private RecyclerView rcvCast;
     private DatabaseReference myRef;
     private ImageView ivAdd;
+    private TextView tvBestPopular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,18 +44,18 @@ public class DeleteCastActivity extends AppCompatActivity {
         rcvCast = findViewById(R.id.rcvCast);
         filmModels = new ArrayList<>();
         ivAdd = findViewById(R.id.ivAdd);
-        adapterDeleteFilm = new AdapterDeleteFilm(DeleteCastActivity.this, new DeleteItemClickListener() {
+        adapterDeleteFilm = new AdapterDeleteFilm(DeleteFilmActivity.this, new DeleteItemClickListener() {
             @Override
             public void onDeleteClick(FilmModel filmModel, ImageView movieImageView, int position) {
-                new AlertDialog.Builder(DeleteCastActivity.this)
-                        .setTitle("Xoá")
-                        .setMessage("Ban co chac muon xoa ban ghi nay khong?")
+                new AlertDialog.Builder(DeleteFilmActivity.this)
+                        .setTitle("Delete")
+                        .setMessage("Are you sure you want to delete this section?")
                         .setPositiveButton("OKE", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 FirebaseDatabase database = FirebaseDatabase.getInstance();
                                 DatabaseReference myRef = database.getReference("Film");
-                                myRef.child(String.valueOf(position + 1)).removeValue(new DatabaseReference.CompletionListener() {
+                                myRef.child(String.valueOf(position)).removeValue(new DatabaseReference.CompletionListener() {
                                     @Override
                                     public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
                                         finish();

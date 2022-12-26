@@ -34,7 +34,7 @@ public class InsertActivity extends AppCompatActivity {
         btn_DeleteFilm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(InsertActivity.this,DeleteCastActivity.class);
+                Intent intent = new Intent(InsertActivity.this, DeleteFilmActivity.class);
                 startActivity(intent);
             }
         });

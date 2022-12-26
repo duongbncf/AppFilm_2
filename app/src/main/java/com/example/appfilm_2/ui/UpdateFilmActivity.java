@@ -49,7 +49,7 @@ public class UpdateFilmActivity extends AppCompatActivity {
         adapterUpdateFilm = new AdapterUpdateFilm(UpdateFilmActivity.this, new UpdateItemClickListener() {
             @Override
             public void onUpdateClick(FilmModel filmModel, ImageView movieImageView, int position) {
-                String id = String.valueOf(position + 1);
+                String id = String.valueOf(position);
                 Intent intent = new Intent(UpdateFilmActivity.this, UpdateFilmMan2Activity.class);
                 intent.putExtra("id", id);
                 startActivity(intent);

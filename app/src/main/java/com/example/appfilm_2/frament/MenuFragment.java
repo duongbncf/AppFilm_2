@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.appfilm_2.R;
+import com.example.appfilm_2.ui.ChangePassActivity;
 import com.example.appfilm_2.ui.EditAvatarActivity;
 import com.example.appfilm_2.ui.ForgotActivity;
 import com.example.appfilm_2.ui.SignInAcitivity;
@@ -52,13 +53,14 @@ public class MenuFragment extends Fragment {
         TV_change_password = view.findViewById(R.id.TV_change_password);
 
         mAuth = FirebaseAuth.getInstance();
-        IV_setting = view.findViewById(R.id.IV_setting);
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Account1");
 //        storageReference = FirebaseStorage.getInstance().getReference().child("Profile Pic");
 
         TV_change_password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(requireContext(), ChangePassActivity.class);
+                startActivity(intent);
 
             }
         });

@@ -14,12 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.appfilm_2.R;
-import com.example.appfilm_2.click.CastItemClickListener;
 import com.example.appfilm_2.click.DeleteItemClickListener;
-import com.example.appfilm_2.model.Author;
 import com.example.appfilm_2.model.FilmModel;
-import com.example.appfilm_2.ui.DeleteCastActivity;
-import com.example.appfilm_2.ui.InsertFilmActivity;
 
 import java.util.ArrayList;
 
