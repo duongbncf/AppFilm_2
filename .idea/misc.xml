@@ -27,18 +27,19 @@
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/drawable/white_background.xml" value="0.1685" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_admin.xml" value="0.17101325352714836" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_category.xml" value="0.176" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_change_pass.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_change_pass.xml" value="0.4" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_delete_film.xml" value="0.264" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_demo.xml" value="0.4" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_edit_avatar.xml" value="0.264" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_film.xml" value="0.152" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_film.xml" value="0.4" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_film_detail.xml" value="0.1" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_gmail.xml" value="0.15476699444206926" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert.xml" value="0.176" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert_cast.xml" value="0.2" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert_film.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_insert_film.xml" value="0.264" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_menu_new.xml" value="0.176" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_detail.xml" value="0.264" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_detail2.xml" value="0.1" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/activity_movie_player.xml" value="0.2770700636942675" />
@@ -54,7 +55,7 @@
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_action.xml" value="0.176" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_comming_soon.xml" value="0.19794784095767423" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_gmail.xml" value="0.4" />
-        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_menu.xml" value="0.176" />
+        <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/fragment_search.xml" value="0.264" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/home_fragment.xml" value="0.264" />
         <entry key="..\:/Android/AppFilm_2/app/src/main/res/layout/item_category.xml" value="0.23257802479692177" />

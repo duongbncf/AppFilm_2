@@ -25,6 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.UpdateFilmMan2Activity"
+            android:parentActivityName=".ui.UpdateFilmActivity"
             android:exported="false" />
         <activity
             android:name=".ui.EditAvatarActivity"
@@ -38,9 +39,11 @@
             android:exported="false" />
         <activity
             android:name=".ui.InsertCastActivity"
+            android:parentActivityName=".ui.CastActivity"
             android:exported="false" />
         <activity
             android:name=".ui.InsertFilmActivity"
+            android:parentActivityName=".ui.FilmActivity"
             android:exported="false" />
         <activity
             android:name=".ui.CastActivity"
@@ -71,9 +74,11 @@
             android:exported="false" />
         <activity
             android:name=".ui.DeleteFilmActivity"
+            android:parentActivityName=".ui.InsertActivity"
             android:exported="false" />
         <activity
             android:name=".ui.UpdateFilmActivity"
+            android:parentActivityName=".ui.InsertActivity"
             android:exported="false" />
         <activity
             android:name=".ui.FilmDetailActivity"

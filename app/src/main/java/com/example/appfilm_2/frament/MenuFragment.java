@@ -33,10 +33,11 @@ public class MenuFragment extends Fragment {
     private CircleImageView vAvatar;
     private TextView tvName;
     private TextView tvEmail;
-    private ImageView vSignOut;
+    private TextView vSignOut;
     private Uri selectedImage;
     private ImageView IV_setting;
     private TextView TV_change_password;
+    private TextView tv_change_avatar;
     //    private FirebaseStorage mStorage = FirebaseStorage.getInstance();
     private DatabaseReference databaseReference;
     //    private StorageReference storageReference;
@@ -45,17 +46,24 @@ public class MenuFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_menu, container, false);
+        View view = inflater.inflate(R.layout.activity_menu_new, container, false);
         vAvatar = view.findViewById(R.id.vAvatar);
         tvName = view.findViewById(R.id.tvName);
         tvEmail = view.findViewById(R.id.tvEmail);
         vSignOut = view.findViewById(R.id.vSignOut);
+        tv_change_avatar = view.findViewById(R.id.tv_change_avatar);
         TV_change_password = view.findViewById(R.id.TV_change_password);
 
         mAuth = FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Account1");
 //        storageReference = FirebaseStorage.getInstance().getReference().child("Profile Pic");
-
+        tv_change_avatar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(requireContext(), EditAvatarActivity.class);
+                startActivity(intent);
+            }
+        });
         TV_change_password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

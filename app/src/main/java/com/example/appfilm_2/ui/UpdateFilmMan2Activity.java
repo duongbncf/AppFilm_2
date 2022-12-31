@@ -70,9 +70,10 @@ public class UpdateFilmMan2Activity extends AppCompatActivity {
                        edtCover_Image.setText("");
                        edt_depcription.setText("");
                        edtName.setText("");
-                       edtUrl.setText("1");
-                       edtName.setText("1");
+                       edtUrl.setText("");
+                       edtName.setText("");
                        Toast.makeText(UpdateFilmMan2Activity.this,"OKE",Toast.LENGTH_SHORT).show();
+                       finish();
 
                    }else {
                        Toast.makeText(UpdateFilmMan2Activity.this,"Failed",Toast.LENGTH_SHORT).show();

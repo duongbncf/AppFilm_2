@@ -33,7 +33,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/edt_new_password"
+            android:id="@+id/edt_old_password"
             android:layout_width="360dp"
             android:layout_height="50dp"
             android:layout_marginTop="36dp"
@@ -46,7 +46,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <EditText
-            android:id="@+id/edt_new_password_again"
+            android:id="@+id/edt_new_password"
             android:layout_width="360dp"
             android:layout_height="50dp"
             android:layout_marginTop="32dp"
@@ -56,19 +56,29 @@
             android:paddingLeft="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edt_new_password" />
+            app:layout_constraintTop_toBottomOf="@+id/edt_old_password" />
 
-<!--        <EditText-->
-<!--            android:id="@+id/edit_linkimageavatar"-->
-<!--            android:layout_width="360dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:layout_marginTop="32dp"-->
-<!--            android:background="@drawable/input"-->
-<!--            android:hint="Nhập link ảnh phim:"-->
-<!--            android:paddingLeft="20dp"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/edt_new_password_again" />-->
+        <EditText
+            android:id="@+id/edt_new_password_again"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/input"
+            android:inputType="textPassword"
+            android:hint="Enter new password again:"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_new_password" />
+        <TextView
+            android:id="@+id/tvError4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#E40000"
+            app:layout_constraintStart_toStartOf="@id/edt_new_password_again"
+            app:layout_constraintTop_toBottomOf="@id/edt_new_password_again" />
 
       <Button
             android:id="@+id/btnThem"
@@ -80,7 +90,7 @@
             android:text="CHANGE PASSWORD"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edt_new_password_again" />
+            app:layout_constraintTop_toBottomOf="@+id/tvError4" />
 
 <TextView
     android:id="@+id/tv_back"

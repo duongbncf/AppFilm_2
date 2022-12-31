@@ -60,7 +60,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 String name = s.toString().trim();
                 if (name.length() < 6) {
-                    edtUserNameorPassword.setError("Tên tài khoản tối thiểu 6 ký tự");
+                    edtUserNameorPassword.setError("Account minimum 6 characters");
                 } else {
                     edtUserNameorPassword.setError(null);
                 }
@@ -82,7 +82,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 String pass = s.toString().trim();
                 if (pass.length() < 8) {
-                    edtPasswordCreate.setError("Mật khẩu tối thiểu 8 ký tự");
+                    edtPasswordCreate.setError("Password at least 8 characters");
                 } else {
                     edtPasswordCreate.setError(null);
                 }
@@ -104,7 +104,7 @@ public class SignUpActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 String pass = s.toString().trim();
                 if (pass.length() < 8) {
-                    edtConfirmPassword.setError("Mật khẩu tối thiểu 8 ký tự");
+                    edtConfirmPassword.setError("Password at least 8 characters");
                 } else {
                     edtConfirmPassword.setError(null);
                 }
@@ -113,7 +113,7 @@ public class SignUpActivity extends AppCompatActivity {
                 if (passInput.equals(passInputAgain)) {
                     tvError4.setText(null);
                 } else {
-                    tvError4.setText("Mật khẩu không trùng khớp");
+                    tvError4.setText("Password does not match");
                 }
             }
         });
